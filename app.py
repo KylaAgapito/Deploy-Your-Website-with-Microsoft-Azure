@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.get("/")
 def home():
     profile = {
-        "name": "Your Name",
+        "name": "Yuki Minami",
         "title": "Aspiring Cloud Developer",
         "bio": "I build simple, useful web experiences and enjoy learning modern cloud tools.",
         "location": "City, Country",
